@@ -1,3 +1,9 @@
+title: [The title of your site]
+description: [A short description of your site's purpose]
+
+show_downloads: ["true" or "false" to indicate whether to provide a download URL]
+google_analytics: [Your Google Analytics tracking ID]
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/PLMartin/PLMartin.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
