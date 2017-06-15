@@ -1,7 +1,8 @@
 body{
-	font-family: : 'Source code pro', Calibri, serif;
+	font-family: Verdana, Calibri, sans-serif;
 	margin: 0px;
 	padding: 0px;
+	background-color: rgb(205, 230, 255);
 }
 
 
@@ -12,11 +13,13 @@ body{
 nav{
 	width: 100%;
 	background-color: #424558;
+	border-bottom: 2px solid black;
 }
 
 nav > ul{
-	margin: 0px;
+	margin:0px;
 	padding-right: 50px;
+
 }
 
 nav > ul::after{
@@ -34,6 +37,7 @@ nav > ul > li{
 nav > ul > li > a{
 	padding: 20px 30px;
 	color: #FFF;
+	font-weight: bold;
 }
 
 nav > ul > li:hover a{
@@ -125,6 +129,45 @@ nav li:hover .submenu{
 
 /************************************************************/
 
+section{
+    margin: 20px;
+
+}
+
+aside{
+	display: block;
+	vertical-align: top;
+	overflow: auto;
+	height: 512px;
+	width: 256px;
+	margin-left: 20px;
+	margin-right: 20px;
+	background-color: #424558;
+	text-align: justify;
+	border: 2px solid black;
+	border-radius: 5px;
+	position: absolute;
+}
+
+aside h1{
+	color: #FFF;
+	text-align: center;
+}
+
+
+article{
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+	margin-left: 330px;
+	position: relative;
+	width: 800px;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: justify;
+	padding: 15px 30px;
+	background-color: #FFF;
+}
 
 .container{
 	height: auto;
@@ -132,14 +175,21 @@ nav li:hover .submenu{
 
 
 footer{
-	display: table-row;
-	height: 1px;
-	background-color: #424558; 
+	height: 100px;
+	width: 100%;
+	background-color: #424558;
+	border-top: 2px solid black;
+	position: relative;
+	float: bottom;
+
 }
 
 
 
+footer > ul{
 
+
+}
 
 
 
